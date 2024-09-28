@@ -1,4 +1,5 @@
 The /post.php page is vulnerable to SQL injection.
+![ic copy](https://github.com/user-attachments/assets/f58fbfe5-c245-4140-bf0d-8df4def6a88a)
 
 Step-by-Step Exploitation
 
