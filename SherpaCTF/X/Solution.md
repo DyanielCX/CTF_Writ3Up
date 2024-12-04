@@ -4,6 +4,8 @@
 
 **Level: Medium**
 
+**Category: Reverse Engineering**
+
 **Author: Dell**
 
 <img width="373" alt="Screenshot_2" src="https://github.com/user-attachments/assets/893fa778-fe6c-4371-90fc-759b40d7792c">
