@@ -18,7 +18,7 @@ Besides, this challenge also has provide a pcapng file. So as normal will open i
 ![image](https://github.com/user-attachments/assets/5038cbff-47a5-4f74-9751-c5e26b29845e)
 
 I have do some checking and analysis on this file with the built-in features in statistic tab. When come to check the *conservartion*, 
-I find a suspicious situation which is the large amount of packet tranfer between `10.10.1.13` and `10.10.1.9`, with the total 82
+I find a suspicious situation which is the large amount of packet transfer between `10.10.1.13` and `10.10.1.9`, with the total 82
 ![image](https://github.com/user-attachments/assets/c4cc0133-e0ab-498e-b676-ca6ffb7af0dd)
 ![image](https://github.com/user-attachments/assets/4b7b7812-d9a4-49cc-98f2-12051477f6d0)
 
