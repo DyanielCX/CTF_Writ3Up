@@ -29,10 +29,12 @@ At that moment, I remember back the lyrics of the youtube clip song - **ZOMBIEEE
 
 So, I feel this might something like zombie attack or DDOS attack. After this I stuck at here.... QwQ
 
+![image](https://github.com/user-attachments/assets/bdc63724-a3b9-418b-872a-da23417adbeb)
+
 <p>&nbsp;</p>
 
 #### After a long long time...
-Challenge creator release a hint, something like take attention on the chall and the music (sry I forget what exaclly the hint @3@)
+Challenge creator release a hint, something like take attention on the chall and the music (ps: sry I forget what exactly the hint @3@)
 
 After that, I notice the chall title and the music always repeat... "IN MY HEADDD, IN MY HEADDD" Wait?! **HEADD**?? maybe I think what I need to take attention is the... header?
 
