@@ -27,5 +27,36 @@ have been encrypted.
 And all of these variables are been called in the main function. So next I have move to view the main function code which is the entry point
 ![image](https://github.com/user-attachments/assets/2f536ea6-f123-4467-b0b9-8c38ccc9e11f)
 
-Unfortunately, I stuck at here for a long period during the competition Q~Q
+Unfortunately, I can't find the usage of the decrypted flag variables and stuck at here for a long period during the competition Q~Q
 
+Suddenly, my teammate ask me "have I view the source code in assemble code form?" Yea true, I forget view it in diassembly
+
+In diassembly form, I found all the variables that related to the flag
+![image](https://github.com/user-attachments/assets/9adc5040-9266-4981-a029-45631573742d)
+![image](https://github.com/user-attachments/assets/4be00adf-eeb5-4bba-b72e-b6e25a4101b5)
+
+And when I change it show in the graph form, the logic/condition of the program become clearer
+
+In the last three line, the system set `dword [rbp+0x4]` as **0x1**, compare it again with **0x1** and jump to the display flag section if not equal.
+This situation will cause the program definitely unable run the flag display part
+![image](https://github.com/user-attachments/assets/e6a1ce7f-3e06-4225-8a61-4cc709732c81)
+
+What's idea from our group to bypass/modify this condition is using the patch feature of binary ninja invert the jump condition 
+from **jne(jump not equal)** to **je(jump equal)** to make the program move to the flag display section
+![image](https://github.com/user-attachments/assets/1d240929-ca0a-422c-aeb6-f5ec44a10352)
+![image](https://github.com/user-attachments/assets/5df4d673-df9d-4127-a516-91877bb3ef20)
+
+After this, export the modified program and run it in the window command prompt and you will get the first part of the flag
+![image](https://github.com/user-attachments/assets/242c223c-b284-4dbc-95dd-140c07a3820f)
+
+Using the same method in the end of the first flag display section, you give get the second flag
+![image](https://github.com/user-attachments/assets/947c0f76-3bd7-46f7-8e4a-cf088e89f237)
+![image](https://github.com/user-attachments/assets/a2970314-2ff8-4bee-8433-a0af5ab2e1e8)
+![image](https://github.com/user-attachments/assets/287a2cd3-593d-40e1-ac98-7a1dd6a1ce5d)
+
+Combine both part of the flag, Congrats you have get the flag for this challs HURRAY!!! (>⁠ω<)"
+
+ ### Flag: SHCTF24{n0b0dy_c4n_dr46_m3_d0wn_1337}
+
+**ps: This is the way that how I solve this challenge. In between maybe there is some part with wrong information. 
+If you find it, welcome come to tell me anytime. I will update it with the correct information**
